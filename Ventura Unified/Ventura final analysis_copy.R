@@ -59,6 +59,11 @@ ventura_analysis <- ventura_analysis |>
       100
   )
 
+plot_data <- ventura_analysis |>
+  mutate(
+    breakfast_rate = Breakfast / (attendance * 178) * 100,
+    lunch_rate = Lunch / (attendance * 178) * 100
+  )
 
 # ------------------------------------------------------------
 # Classify grades by school-day structure
@@ -429,5 +434,89 @@ ggplot(
     x = "Grade",
     y = "Meal service rate (%)",
     title = "Meal service rate by grade"
+  ) +
+  theme_minimal()
+
+# ------------------------------------------------------------
+# Figure 2: Meal service rate by school - K Grade
+# ------------------------------------------------------------
+
+plot_K <- plot_data |>
+  filter(
+    grade == "K"
+  ) |>
+  select(
+    school_name,
+    breakfast_rate,
+    lunch_rate
+  ) |>
+  pivot_longer(
+    cols = c(breakfast_rate, lunch_rate),
+    names_to = "meal_type",
+    values_to = "participation_rate"
+  ) |>
+  mutate(
+    meal_type = case_when(
+      meal_type == "breakfast_rate" ~ "Breakfast",
+      meal_type == "lunch_rate" ~ "Lunch"
+    )
+  )
+
+ggplot(
+  plot_K,
+  aes(
+    x = participation_rate,
+    y = school_name,
+    color = meal_type
+  )
+) +
+  geom_point(size = 3) +
+  labs(
+    x = "Meal participation rate (%)",
+    y = "School",
+    color = "Meal",
+    title = "Meal participation rate by school — Kindergarten"
+  ) +
+  theme_minimal()
+
+# ------------------------------------------------------------
+# Figure 3: Meal service rate by school - TK Grade
+# ------------------------------------------------------------
+
+plot_TK <- plot_data |>
+  filter(
+    grade == "TK"
+  ) |>
+  select(
+    school_name,
+    breakfast_rate,
+    lunch_rate
+  ) |>
+  pivot_longer(
+    cols = c(breakfast_rate, lunch_rate),
+    names_to = "meal_type",
+    values_to = "participation_rate"
+  ) |>
+  mutate(
+    meal_type = case_when(
+      meal_type == "breakfast_rate" ~ "Breakfast",
+      meal_type == "lunch_rate" ~ "Lunch"
+    )
+  )
+
+ggplot(
+  plot_TK,
+  aes(
+    x = participation_rate,
+    y = school_name,
+    color = meal_type
+  )
+) +
+  geom_point(size = 3) +
+  labs(
+    x = "Meal participation rate (%)",
+    y = "School",
+    color = "Meal",
+    title = "Meal participation rate by school — TK"
   ) +
   theme_minimal()
