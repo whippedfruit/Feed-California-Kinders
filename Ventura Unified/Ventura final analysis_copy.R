@@ -6,7 +6,7 @@ library(readxl)
 library(dplyr)
 library(stringr)
 library(purrr)
-
+library(ggplot2)
 
 # ------------------------------------------------------------
 # Combine ADA and Meal data
@@ -358,165 +358,169 @@ grade_summary <- ventura_analysis |>
 grade_summary
 
 # ------------------------------------------------------------
-# Figure 1: Meal service rate by grade
+# Preparing for plots
+# Since Preschool meal seems to have some problems, PS data are excluded from the plots
 # ------------------------------------------------------------
-
-library(ggplot2)
-
-grade_order <- c(
-  "TK",
-  "K",
-  "1",
-  "2",
-  "3",
-  "4",
-  "5"
-)
-
-plot_data <- ventura_analysis |>
-  filter(
-    grade %in% grade_order
-  ) |>
+ventura_meals_per_person <- ventura_analysis |>
   mutate(
-    grade = factor(
-      grade,
-      levels = grade_order
-    )
+   breakfast_per_person_day = 
+     Breakfast / (attendance * 178),
+   
+   lunch_per_person_day =
+     Lunch / (attendance * 178), 
+   
+   total_meals_per_person_day =
+     (Breakfast +Lunch )/ (attendance * 178)
   )
 
-ggplot(
-  plot_data,
-  aes(
-    x = grade,
-    y = meal_rate
-  )
-) +
-  geom_boxplot(
-    width = 0.6,
-    outlier.shape = NA
-  ) +
-  geom_jitter(
-    width = 0.12,
-    alpha = 0.6
-  ) +
-  labs(
-    x = "Grade",
-    y = "Meal service rate (%)",
-    title = "Meal service rate by grade"
-  ) +
-  theme_minimal()
 
-ggplot(
-  ventura_analysis |>
-    filter(
-      grade %in% c("TK", "K", "1", "2", "3", "4", "5")
-    ) |>
-    mutate(
-      grade = factor(
-        grade,
-        levels = c("TK", "K", "1", "2", "3", "4", "5")
-      )
-    ),
-  aes(
-    x = grade,
-    y = meal_rate
-  )
-) +
-  geom_boxplot(
-    width = 0.55,
-    outlier.shape = NA
-  ) +
-  geom_jitter(
-    width = 0.10,
-    alpha = 0.6
-  ) +
-  labs(
-    x = "Grade",
-    y = "Meal service rate (%)",
-    title = "Meal service rate by grade"
-  ) +
-  theme_minimal()
-
-# ------------------------------------------------------------
-# Figure 2: Meal service rate by school - K Grade
-# ------------------------------------------------------------
-
-plot_K <- plot_data |>
+ventura_TK5 <- ventura_meals_per_person |>
   filter(
-    grade == "K"
-  ) |>
+    grade %in% c("TK","K", "1", "2", "3", "4", "5")
+  )
+
+ventura_TK5 |>
   select(
     school_name,
-    breakfast_rate,
-    lunch_rate
-  ) |>
-  pivot_longer(
-    cols = c(breakfast_rate, lunch_rate),
-    names_to = "meal_type",
-    values_to = "participation_rate"
-  ) |>
-  mutate(
-    meal_type = case_when(
-      meal_type == "breakfast_rate" ~ "Breakfast",
-      meal_type == "lunch_rate" ~ "Lunch"
-    )
+    grade,
+    breakfast_per_person_day,
+    lunch_per_person_day,
+    total_meals_per_person_day
   )
 
+# ------------------------------------------------------------
+# Figure 1: Breakfast Meals per Person per Day
+# ------------------------------------------------------------
+
 ggplot(
-  plot_K,
+  ventura_TK5,
   aes(
-    x = participation_rate,
+    x = breakfast_per_person_day,
     y = school_name,
-    color = meal_type
+    color = grade
   )
 ) +
-  geom_point(size = 3) +
+  # Draw 1-5 first
+  geom_point(
+    data = ventura_TK5 |>
+      filter(!grade %in% c("TK", "K")),
+    size = 3
+    ) +
+  # Then draw TK & K, so that TK & K can overlap 1-5
+  geom_point(
+    data = ventura_TK5 |>
+      filter(grade %in% c("TK", "K")),
+    size = 3
+  ) +
+  scale_x_continuous(
+    breaks = seq(0,1, by = 0.25)
+  ) +
+  scale_color_manual(
+    values = c (
+      "TK" = "#E57373",
+      "K" = "#C62828",
+      "1" = "#42A5F5",
+      "2" = "#26A69A",
+      "3" = "#66BB6A",
+      "4" = "#00897B",
+      "5" = "#00569B"
+    )
+  ) +
   labs(
-    x = "Meal participation rate (%)",
+    title = "Ventura - Breakfast Meals per Person per Day",
+    x = "Breakfast meals per person per day",
     y = "School",
-    color = "Meal",
-    title = "Meal participation rate by school — Kindergarten"
+    color = "Grade"
   ) +
   theme_minimal()
 
 # ------------------------------------------------------------
-# Figure 3: Meal service rate by school - TK Grade
+# Figure 2: Lunch Meals per Person per Day
 # ------------------------------------------------------------
 
-plot_TK <- plot_data |>
-  filter(
-    grade == "TK"
-  ) |>
-  select(
-    school_name,
-    breakfast_rate,
-    lunch_rate
-  ) |>
-  pivot_longer(
-    cols = c(breakfast_rate, lunch_rate),
-    names_to = "meal_type",
-    values_to = "participation_rate"
-  ) |>
-  mutate(
-    meal_type = case_when(
-      meal_type == "breakfast_rate" ~ "Breakfast",
-      meal_type == "lunch_rate" ~ "Lunch"
-    )
-  )
-
 ggplot(
-  plot_TK,
+  ventura_TK5,
   aes(
-    x = participation_rate,
+    x = lunch_per_person_day,
     y = school_name,
-    color = meal_type
+    color = grade
   )
-) +
-  geom_point(size = 3) +
+) +  # Draw 1-5 first
+  geom_point(
+    data = ventura_TK5 |>
+      filter(!grade %in% c("TK", "K")),
+    size = 3
+  ) +
+  # Then draw TK & K, so that TK & K can overlap 1-5
+  geom_point(
+    data = ventura_TK5 |>
+      filter(grade %in% c("TK", "K")),
+    size = 3
+  ) +
+  scale_x_continuous(
+    breaks = seq(0,1, by = 0.25)
+  ) +
+  scale_color_manual(
+    values = c (
+      "TK" = "#E57373",
+      "K" = "#C62828",
+      "1" = "#42A5F5",
+      "2" = "#26A69A",
+      "3" = "#66BB6A",
+      "4" = "#00897B",
+      "5" = "#00569B"
+    )
+  ) +
   labs(
-    x = "Meal participation rate (%)",
+    title = "Ventura - Lunch Meals per Person per Day",
+    x = "Lunch meals per person per day",
     y = "School",
-    color = "Meal",
-    title = "Meal participation rate by school — TK"
+    color = "Grade"
   ) +
   theme_minimal()
+
+# ------------------------------------------------------------
+# Figure 3: Total Meals per Person per Day
+# ------------------------------------------------------------
+
+ggplot(
+  ventura_TK5,
+  aes(
+    x = total_meals_per_person_day,
+    y = school_name,
+    color = grade
+  )
+) +  # Draw 1-5 first
+  geom_point(
+    data = ventura_TK5 |>
+      filter(!grade %in% c("TK", "K")),
+    size = 3
+  ) +
+  # Then draw TK & K, so that TK & K can overlap 1-5
+  geom_point(
+    data = ventura_TK5 |>
+      filter(grade %in% c("TK", "K")),
+    size = 3
+  ) +
+  scale_x_continuous(
+    breaks = seq(0,2, by = 0.25)
+  ) +
+  scale_color_manual(
+    values = c (
+      "TK" = "#E57373",
+      "K" = "#C62828",
+      "1" = "#42A5F5",
+      "2" = "#26A69A",
+      "3" = "#66BB6A",
+      "4" = "#00897B",
+      "5" = "#00569B"
+    )
+  ) +
+  labs(
+    title = "Ventura - Total Meals per Person per Day",
+    x = "Total meals per person per day",
+    y = "School",
+    color = "Grade"
+  ) +
+  theme_minimal()
+
