@@ -1,0 +1,13 @@
+{
+  "run_all_exit_code": 0,
+  "test_pipeline_exit_code": 0,
+  "regression_marker": "All pipeline regression and integrity tests passed.",
+  "district_extraction": "PASS",
+  "october_stability": "PASS",
+  "independent_october_benchmark_checks": 230,
+  "independent_october_benchmark_failures": 0,
+  "repeat_output_csvs": 16,
+  "repeat_output_byte_differences": [],
+  "repository_source_changes": 0,
+  "commits_created": 0
+}

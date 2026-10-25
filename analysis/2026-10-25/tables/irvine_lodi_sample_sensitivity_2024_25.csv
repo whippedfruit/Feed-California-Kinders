@@ -1,0 +1,5 @@
+"sample","district","schools_usable","census_tk_k","eligible_cumulative_tk_k","total_absence_days","proxy_attended_census_180","proxy_attended_cumulative_180","cumulative_vs_census_pct"
+"all focus schools","Irvine Unified",30,3172,3417,33152,537808,581908,8.19995239936928
+"non-charter schools only","Irvine Unified",29,2974,3219,31747,503573,547673,8.7574194803931
+"all focus schools","Lodi Unified",33,2632,2823,43256,430504,464884,7.98598851578616
+"non-charter schools only","Lodi Unified",29,2338,2518,40611,380229,412629,8.52118065691991

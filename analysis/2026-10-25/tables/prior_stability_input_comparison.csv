@@ -1,0 +1,78 @@
+academic_year,cds,district,school,charter,dass,category,adj_cum_enrollment,stability_count,stability_rate,fresh_rate,difference
+2024-25,56725205631817,Ojai Unified,Legacy High,No,Yes,TA,51,30,58.8,58.8,0.0
+2024-25,56725206055198,Ojai Unified,Meiners Oaks Elementary,No,No,GRTKKN,72,69,95.8,95.8,0.0
+2024-25,56725206055198,Ojai Unified,Meiners Oaks Elementary,No,No,TA,72,69,95.8,95.8,0.0
+2024-25,56725206055206,Ojai Unified,Mira Monte Elementary,No,No,GR13,217,200,92.2,92.2,0.0
+2024-25,56725206055206,Ojai Unified,Mira Monte Elementary,No,No,GRTKKN,74,69,93.2,93.2,0.0
+2024-25,56725206055206,Ojai Unified,Mira Monte Elementary,No,No,TA,542,507,93.5,93.5,0.0
+2024-25,56725205634076,Ojai Unified,Nordhoff High,No,No,TA,602,543,90.2,90.2,0.0
+2024-25,56725206060339,Ojai Unified,Nordhoff Jr. High,No,No,TA,283,262,92.6,92.6,0.0
+2024-25,56725200139626,Ojai Unified,Summit,No,No,GR13,44,30,68.2,68.2,0.0
+2024-25,56725200139626,Ojai Unified,Summit,No,No,GRTKKN,16,13,81.3,81.3,0.0
+2024-25,56725200139626,Ojai Unified,Summit,No,No,TA,221,169,76.5,76.5,0.0
+2024-25,56725206055248,Ojai Unified,Topa Topa Elementary,No,No,GR13,156,148,94.9,94.9,0.0
+2024-25,56725206055248,Ojai Unified,Topa Topa Elementary,No,No,GRTKKN,51,49,96.1,96.1,0.0
+2024-25,56725206055248,Ojai Unified,Topa Topa Elementary,No,No,TA,367,340,92.6,92.6,0.0
+2024-25,56726526056204,Ventura Unified,Academy of Technology & Leadership at Saticoy,No,No,GR13,184,172,93.5,93.5,0.0
+2024-25,56726526056204,Ventura Unified,Academy of Technology & Leadership at Saticoy,No,No,GRTKKN,66,59,89.4,89.4,0.0
+2024-25,56726526056204,Ventura Unified,Academy of Technology & Leadership at Saticoy,No,No,TA,476,449,94.3,94.3,0.0
+2024-25,56726526062145,Ventura Unified,Anacapa Middle,No,No,TA,617,577,93.5,93.5,0.0
+2024-25,56726526060370,Ventura Unified,Balboa Middle,No,No,TA,872,828,95.0,95.0,0.0
+2024-25,56726525630793,Ventura Unified,Buena High,No,No,TA,1659,1481,89.3,89.3,0.0
+2024-25,56726526060388,Ventura Unified,Cabrillo Middle,No,No,TA,958,912,95.2,95.2,0.0
+2024-25,56726526116040,Ventura Unified,Citrus Glen Elementary,No,No,GR13,257,242,94.2,94.2,0.0
+2024-25,56726526116040,Ventura Unified,Citrus Glen Elementary,No,No,GRTKKN,99,91,91.9,91.9,0.0
+2024-25,56726526116040,Ventura Unified,Citrus Glen Elementary,No,No,TA,504,473,93.8,93.8,0.0
+2024-25,56726526062152,Ventura Unified,De Anza Academy of Technology and the Arts,No,No,TA,616,553,89.8,89.8,0.0
+2024-25,56726526056063,Ventura Unified,E. P. Foster Elementary,No,No,GR13,156,135,86.5,86.5,0.0
+2024-25,56726526056063,Ventura Unified,E. P. Foster Elementary,No,No,GRTKKN,62,51,82.3,82.3,0.0
+2024-25,56726526056063,Ventura Unified,E. P. Foster Elementary,No,No,TA,329,283,86.0,86.0,0.0
+2024-25,56726525630298,Ventura Unified,El Camino High,No,No,TA,241,198,82.2,82.2,0.0
+2024-25,56726526056089,Ventura Unified,Elmhurst Elementary,No,No,GR13,168,150,89.3,89.3,0.0
+2024-25,56726526056089,Ventura Unified,Elmhurst Elementary,No,No,GRTKKN,94,83,88.3,88.3,0.0
+2024-25,56726526056089,Ventura Unified,Elmhurst Elementary,No,No,TA,402,359,89.3,89.3,0.0
+2024-25,56726525630348,Ventura Unified,Foothill Technology High,No,No,TA,962,934,97.1,97.1,0.0
+2024-25,56726526115687,Ventura Unified,Homestead (Alternative),No,No,GR13,14,8,57.1,57.1,0.0
+2024-25,56726526115687,Ventura Unified,Homestead (Alternative),No,No,GRTKKN,4,3,75.0,75.0,0.0
+2024-25,56726526115687,Ventura Unified,Homestead (Alternative),No,No,TA,75,39,52.0,52.0,0.0
+2024-25,56726526056097,Ventura Unified,Juanamaria Elementary,No,No,GR13,175,163,93.1,93.1,0.0
+2024-25,56726526056097,Ventura Unified,Juanamaria Elementary,No,No,GRTKKN,82,73,89.0,89.0,0.0
+2024-25,56726526056097,Ventura Unified,Juanamaria Elementary,No,No,TA,406,382,94.1,94.1,0.0
+2024-25,56726526056105,Ventura Unified,Junipero Serra Elementary,No,No,GR13,199,191,96.0,96.0,0.0
+2024-25,56726526056105,Ventura Unified,Junipero Serra Elementary,No,No,GRTKKN,72,70,97.2,97.2,0.0
+2024-25,56726526056105,Ventura Unified,Junipero Serra Elementary,No,No,TA,424,411,96.9,96.9,0.0
+2024-25,56726526056055,Ventura Unified,Lemon Grove,No,No,GR13,114,101,88.6,88.6,0.0
+2024-25,56726526056055,Ventura Unified,Lemon Grove,No,No,GRTKKN,58,50,86.2,86.2,0.0
+2024-25,56726526056055,Ventura Unified,Lemon Grove,No,No,TA,321,283,88.2,88.2,0.0
+2024-25,56726526056113,Ventura Unified,Lincoln Elementary,No,No,GR13,96,80,83.3,83.3,0.0
+2024-25,56726526056113,Ventura Unified,Lincoln Elementary,No,No,GRTKKN,55,51,92.7,92.7,0.0
+2024-25,56726526056113,Ventura Unified,Lincoln Elementary,No,No,TA,223,190,85.2,85.2,0.0
+2024-25,56726526056121,Ventura Unified,Loma Vista Elementary,No,No,GR13,185,175,94.6,94.6,0.0
+2024-25,56726526056121,Ventura Unified,Loma Vista Elementary,No,No,GRTKKN,100,94,94.0,94.0,0.0
+2024-25,56726526056121,Ventura Unified,Loma Vista Elementary,No,No,TA,404,385,95.3,95.3,0.0
+2024-25,56726526056147,Ventura Unified,Montalvo Elementary,No,No,GR13,184,178,96.7,96.7,0.0
+2024-25,56726526056147,Ventura Unified,Montalvo Elementary,No,No,GRTKKN,91,87,95.6,95.6,0.0
+2024-25,56726526056147,Ventura Unified,Montalvo Elementary,No,No,TA,404,385,95.3,95.3,0.0
+2024-25,56726526056154,Ventura Unified,Mound Elementary,No,No,GR13,256,244,95.3,95.3,0.0
+2024-25,56726526056154,Ventura Unified,Mound Elementary,No,No,GRTKKN,78,75,96.2,96.2,0.0
+2024-25,56726526056154,Ventura Unified,Mound Elementary,No,No,TA,503,483,96.0,96.0,0.0
+2024-25,56726525630272,Ventura Unified,Pacific High,No,Yes,TA,276,167,60.5,60.5,0.0
+2024-25,56726526056170,Ventura Unified,Pierpont Elementary,No,No,GR13,146,137,93.8,93.8,0.0
+2024-25,56726526056170,Ventura Unified,Pierpont Elementary,No,No,GRTKKN,53,51,96.2,96.2,0.0
+2024-25,56726526056170,Ventura Unified,Pierpont Elementary,No,No,TA,312,298,95.5,95.5,0.0
+2024-25,56726526056188,Ventura Unified,Poinsettia Elementary,No,No,GR13,172,162,94.2,94.2,0.0
+2024-25,56726526056188,Ventura Unified,Poinsettia Elementary,No,No,GRTKKN,58,55,94.8,94.8,0.0
+2024-25,56726526056188,Ventura Unified,Poinsettia Elementary,No,No,TA,363,343,94.5,94.5,0.0
+2024-25,56726526097034,Ventura Unified,Portola Elementary,No,No,GR13,213,194,91.1,91.1,0.0
+2024-25,56726526097034,Ventura Unified,Portola Elementary,No,No,GRTKKN,84,69,82.1,82.1,0.0
+2024-25,56726526097034,Ventura Unified,Portola Elementary,No,No,TA,484,431,89.0,89.0,0.0
+2024-25,56726526056212,Ventura Unified,Sheridan Way Elementary,No,No,GR13,162,143,88.3,88.3,0.0
+2024-25,56726526056212,Ventura Unified,Sheridan Way Elementary,No,No,GRTKKN,75,65,86.7,86.7,0.0
+2024-25,56726526056212,Ventura Unified,Sheridan Way Elementary,No,No,TA,349,309,88.5,88.5,0.0
+2024-25,56726526056030,Ventura Unified,Sunset Elementary,No,No,GR13,125,115,92.0,92.0,0.0
+2024-25,56726526056030,Ventura Unified,Sunset Elementary,No,No,GRTKKN,60,52,86.7,86.7,0.0
+2024-25,56726526056030,Ventura Unified,Sunset Elementary,No,No,TA,381,349,91.6,91.6,0.0
+2024-25,56726525637822,Ventura Unified,Ventura High,No,No,TA,2048,1822,89.0,89.0,0.0
+2024-25,56726526056238,Ventura Unified,Will Rogers Elementary,No,No,GR13,210,200,95.2,95.2,0.0
+2024-25,56726526056238,Ventura Unified,Will Rogers Elementary,No,No,GRTKKN,78,73,93.6,93.6,0.0
+2024-25,56726526056238,Ventura Unified,Will Rogers Elementary,No,No,TA,435,412,94.7,94.7,0.0

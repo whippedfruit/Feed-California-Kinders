@@ -1,0 +1,5 @@
+group,flag_rule,False,True
+Schoolwide,False,22,0
+Schoolwide,True,1,2
+TK+K,False,18,0
+TK+K,True,3,0

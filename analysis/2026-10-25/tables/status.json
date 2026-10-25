@@ -1,0 +1,8 @@
+{
+  "stability_reference_rows": 77,
+  "stability_mismatches": 0,
+  "mobility_units": 46,
+  "result_rows": 8,
+  "comparison": "PASS at 1e-10 tolerance",
+  "scope": "Fresh CDE stability verification and original mobility arithmetic; verify_october_benchmarks.py independently validates all 46 unit outcomes and source counts"
+}

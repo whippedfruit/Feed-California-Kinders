@@ -1,0 +1,222 @@
+{
+  "run_date": "2026-10-25",
+  "analysis_repository": {
+    "url": "https://github.com/taielucile/ca-school-lunch-attendance",
+    "commit": "f11fb1b2bef5831753f338b4870bce4fb03048a3"
+  },
+  "district_source_repository": {
+    "url": "https://github.com/whippedfruit/Feed-California-Kinders",
+    "commit": "7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443"
+  },
+  "source_files": [
+    {
+      "path": "analysis/data/raw/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/data/raw/absenteeismreason25-v2.txt",
+      "bytes": 51622818,
+      "sha256": "07a12d7f3b20b19ba02c6363f87becb5b3c03ee1e87c0aca7ddf5012c72a6bd7",
+      "source_url": "https://www3.cde.ca.gov/demo-downloads/attendance/absenteeismreason25-v2.txt"
+    },
+    {
+      "path": "analysis/data/raw/absenteeismreason26.txt",
+      "bytes": 51647245,
+      "sha256": "59458d5a12a5c5e104633683f50c741e8d3a7e1e477fd12cc69192aee5581c0a",
+      "source_url": "https://www3.cde.ca.gov/demo-downloads/attendance/absenteeismreason26.txt"
+    },
+    {
+      "path": "analysis/data/raw/cbedsora24b.txt",
+      "bytes": 6844699,
+      "sha256": "cda8c7e3b0c573506acdda567d83494e93d19ec9ff7a4fd1caa95e08c09faa2f",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Statewide/CA_sites_cbedsora24b.txt"
+    },
+    {
+      "path": "analysis/data/raw/cdenroll2425.txt",
+      "bytes": 32068521,
+      "sha256": "ff65bf6e2c4a0928dc1533106af29716a2cefb71e2e521e5c0e174fa737f8bbc",
+      "source_url": "https://www3.cde.ca.gov/demo-downloads/census/cdenroll2425.txt"
+    },
+    {
+      "path": "analysis/data/raw/cdenroll2526.txt",
+      "bytes": 32041859,
+      "sha256": "10d074101bc1aa3e9dc7433200a3825e430e261b1382e5c5f3102d989f4fa149",
+      "source_url": "https://www3.cde.ca.gov/demo-downloads/census/cdenroll2526.txt"
+    },
+    {
+      "path": "analysis/data/raw/irvine_k_pk_attendance_2025_11_03_07.csv",
+      "bytes": 2522,
+      "sha256": "c80ae8e641a87c75130a81af4f7e14897e16cdcb556c28f1d33953bebae14cfa"
+    },
+    {
+      "path": "analysis/data/raw/lodi_kindergarten_enrollment_measures_2025_26.csv",
+      "bytes": 1217,
+      "sha256": "2b4c47f7dbed104e55ccd6871b4144252aae8673d332996debc5cfb4f01b42c9"
+    },
+    {
+      "path": "analysis/data/raw/sr2425-v3.txt",
+      "bytes": 35372907,
+      "sha256": "1d110ca0f605ded2189a857478f8ee860315b38c398f8e45816bba51c7be1150",
+      "source_url": "https://www3.cde.ca.gov/demo-downloads/stability/sr2425-v3.txt"
+    },
+    {
+      "path": "sources/Irvine/Meals Served 2025.11.03.pdf",
+      "bytes": 122457,
+      "sha256": "5228c2b1a2515f6c525b4d307d4b3d3fd9e2e92375a73e23115d57ce67d811d2",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/Meals Served 2025.11.03.pdf"
+    },
+    {
+      "path": "sources/Irvine/Meals Served 2025.11.04.pdf",
+      "bytes": 122387,
+      "sha256": "1129e40f25e35aaa92ba0eca740c95b291d30bccf141459191566b0259b78d6f",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/Meals Served 2025.11.04.pdf"
+    },
+    {
+      "path": "sources/Irvine/Meals Served 2025.11.05.pdf",
+      "bytes": 121189,
+      "sha256": "d799a4d3cede0b71f6971037aa77793107318386c163b5888bd16a1445365f3a",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/Meals Served 2025.11.05.pdf"
+    },
+    {
+      "path": "sources/Irvine/Meals Served 2025.11.06.pdf",
+      "bytes": 121809,
+      "sha256": "e88932f630baa8d180619f08b00e01936174903c735dc3ccaa09671e7e7dabb7",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/Meals Served 2025.11.06.pdf"
+    },
+    {
+      "path": "sources/Irvine/Meals Served 2025.11.07.pdf",
+      "bytes": 121434,
+      "sha256": "402592a78929e20324723f605a354b54c559ce4af657b2cd56cc593b7420583f",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/Meals Served 2025.11.07.pdf"
+    },
+    {
+      "path": "sources/Irvine/RR 1st Attendance 11.3.25 to 11.7.25.pdf",
+      "bytes": 54263,
+      "sha256": "6a870391f0f88a1f99ae83562a0ecc39935ab4bfed6afc2f86b0e2737c1c1612",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/RR 1st Attendance 11.3.25 to 11.7.25.pdf"
+    },
+    {
+      "path": "sources/Irvine/RR K Attendance 11.3.25 to 11.7.25.pdf",
+      "bytes": 54229,
+      "sha256": "7147aa8ff18452416391fdc152543ad4425b5e04185cc3a72dfd8a2d92f9e723",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/RR K Attendance 11.3.25 to 11.7.25.pdf"
+    },
+    {
+      "path": "sources/Irvine/RR PK Attendance 11.3.25 to 11.7.25.pdf",
+      "bytes": 53958,
+      "sha256": "b306c52cb6ed53ef8d0686f43131396127f204539a6be5e5bc1328c847c92edd",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Irvine/RR PK Attendance 11.3.25 to 11.7.25.pdf"
+    },
+    {
+      "path": "sources/Lodi/Lodi data analysis.R",
+      "bytes": 1326,
+      "sha256": "64ef6bb80c5eab231f5782649235eb59a0e12eb9ce10d47d81c3fa1404a534b4",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/Lodi data analysis.R"
+    },
+    {
+      "path": "sources/Lodi/README",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/README"
+    },
+    {
+      "path": "sources/Lodi/cleaned data/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/cleaned data/.gitkeep"
+    },
+    {
+      "path": "sources/Lodi/cleaned data/Lodi Data_copy.xlsx",
+      "bytes": 18678,
+      "sha256": "5fedfe088945ece164045ae818740136c59eb2a07a56f0c58b578ff4e15cde15",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/cleaned data/Lodi Data_copy.xlsx"
+    },
+    {
+      "path": "sources/Lodi/cleaned data/Lodi FreeReduced eligibility_copy.xlsx",
+      "bytes": 53543,
+      "sha256": "2c8a27253f273bb37434276aab79bd44d61fcdbaf9cf102f95ca0ad08876daf3",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/cleaned data/Lodi FreeReduced eligibility_copy.xlsx"
+    },
+    {
+      "path": "sources/Lodi/cleaned data/Lodi Preschool eligibility.xlsx",
+      "bytes": 13088,
+      "sha256": "fbebf0adfdf4df85fc6f2ab23b4a82d8e76ff7728b90246d9a7fdaff32c441cc",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/cleaned data/Lodi Preschool eligibility.xlsx"
+    },
+    {
+      "path": "sources/Lodi/extracted data/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/extracted data/.gitkeep"
+    },
+    {
+      "path": "sources/Lodi/extracted data/UCI Project - Student Research.xlsx",
+      "bytes": 241520,
+      "sha256": "9d9dd87b0ae18350184a10d841bfdaebfc67e008df0eda7dbc2ce47e79d7061f",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/extracted data/UCI Project - Student Research.xlsx"
+    },
+    {
+      "path": "sources/Lodi/raw data/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/raw data/.gitkeep"
+    },
+    {
+      "path": "sources/Lodi/raw data/UCI Project - Student Research.pdf",
+      "bytes": 1163409,
+      "sha256": "d14897b81dca46d39265e3a80bdaaf6984732ede7ef9a6dab5d2c0f444bd10c5",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/raw data/UCI Project - Student Research.pdf"
+    },
+    {
+      "path": "sources/Lodi/reports/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/reports/.gitkeep"
+    },
+    {
+      "path": "sources/Lodi/visualizations/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Lodi/visualizations/.gitkeep"
+    },
+    {
+      "path": "sources/Ojai Unified/raw data/Ojai Attendance 25-26 copy.xlsX",
+      "bytes": 69084,
+      "sha256": "b1584a588f29d2486cc02512d698f33b48c99efea36cf5a2e31b3580b86797ad",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Ojai Unified/raw data/Ojai Attendance 25-26 copy.xlsX"
+    },
+    {
+      "path": "sources/Ventura Unified/extracted data/Ventura 8:13:2025 - 6:4:2026 ADA clear_copy.xlsx",
+      "bytes": 42024,
+      "sha256": "858457fa80dc5d539a551993dd59ec491153230c0c9838561f19f5a9db255782",
+      "source_url": "https://github.com/whippedfruit/Feed-California-Kinders/blob/7d6c3824b4beb3fcc89f9d4ff2eb6908da38a443/Ventura Unified/extracted data/Ventura 8:13:2025 - 6:4:2026 ADA clear_copy.xlsx"
+    }
+  ],
+  "reference_archives": [
+    {
+      "bytes": 994086,
+      "sha256": "a9be37b6dfee146df883a1aa339c2d9d07b91aee8301be39565214ef6de8f3ec",
+      "name": "FCK_Denominator_Audit_2026-10-25_1.zip"
+    },
+    {
+      "bytes": 137424,
+      "sha256": "1646753e43a5602394e4b7e783eaa78346a263cf5eaa79d2f492059623bb585a",
+      "name": "FCK_Validation_Pass2_2026-10-25.zip"
+    }
+  ],
+  "python_requirements": [
+    "pandas==2.2.3",
+    "numpy==2.3.5",
+    "scipy==1.18.1",
+    "openpyxl==3.1.5",
+    "pdfplumber==0.11.9",
+    "pypdfium2==5.14.0"
+  ],
+  "R_packages": {
+    "dplyr": "1.2.1",
+    "readr": "2.2.0",
+    "stringr": "1.6.0"
+  },
+  "source_path_convention": "sources/ means the root of this repository; analysis/data/raw/ means the companion R repository input directory"
+}
