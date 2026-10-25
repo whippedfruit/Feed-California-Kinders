@@ -49,7 +49,7 @@ MAE is measured in average daily students. The leave-one-out stability correctio
 
 ## Discrepancies and limits
 
-See [the discrepancy register](provenance/discrepancies.csv) for the complete issue register. The material source-label issue is the Irvine K report's duplicated `11.5` header in the fourth column. The derived input follows the five-column November 3–7 sequence and labels that position November 6; the original header remains preserved. Five-day totals are unaffected, but exact day-specific attribution needs district confirmation.
+See [the discrepancy register](provenance/discrepancies.csv) for the complete issue register. The Irvine K report prints `11.5` above both the Wednesday and Thursday columns. The reporting period is November 3–7, 2025 (Monday–Friday), which confirms that the fourth column is Thursday, November 6. The repeated header is a source-label typo; the extracted values follow the weekday sequence, and five-day totals are unaffected.
 
 The R repository's package-free comment is inaccurate for module 09, which requires dplyr, readr, and stringr. Dependencies were installed locally and versions logged. Three CDE stability rows reuse pseudo-school identifier `0000001`; pseudo-schools are excluded before real-school matching.
 

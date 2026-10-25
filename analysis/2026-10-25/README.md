@@ -14,7 +14,7 @@ The annual Census and cumulative-enrollment constructions are sensitivity proxie
 - [Source versions and hashes](provenance/sources.json), [Irvine source lines](provenance/irvine_row_provenance.csv), [Lodi source cells/pages](provenance/lodi_row_provenance.csv), [discrepancies](provenance/discrepancies.csv), and [execution status](provenance/execution_status.json).
 - [Original runner log](logs/RUN_ALL.log) and [original regression log](logs/test_pipeline.log).
 
-The K PDF prints `11.5` twice in its date header. The extracted fourth column is labeled November 6 by the report's five-column weekly sequence. This assumption does not affect five-day totals; day-specific attribution needs district confirmation.
+The K PDF prints `11.5` above both Wednesday and Thursday. Since the report covers Monday, November 3 through Friday, November 7, 2025, the fourth column is Thursday, November 6. The repeated header is a source-label typo; the extracted values follow the weekday sequence.
 
 ## Reconstruct the district CSVs
 

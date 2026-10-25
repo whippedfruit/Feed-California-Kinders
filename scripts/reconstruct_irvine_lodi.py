@@ -44,4 +44,4 @@ with pdfplumber.open(ROOT/'Lodi/raw data/UCI Project - Student Research.pdf') as
 lodi=[dict(school=n,kindergarten_highest_eligible=v[0],kindergarten_last_day=v[1]) for n,v in zip(names,nums)]
 write(ROOT/'Lodi/extracted data/lodi_kindergarten_enrollment_measures_2025_26.csv',lodi)
 write(OUT/'lodi_row_provenance.csv',[dict(**r,school_cell=f'A{360+2*i}',highest_eligible_cell=f'S{433+2*i}',last_day_cell=f'Z{433+2*i}',pdf_school_page=13 if i<18 else 14,pdf_value_page=16 if i<18 else 17,cleaned_workbook_row=i+4) for i,r in enumerate(lodi)])
-print(json.dumps(dict(irvine_rows=58,k_student_days=8703,pk_student_days=5401,lodi_rows=31,lodi_highest_eligible=3481,lodi_last_day=3481,pdf_and_cleaned_workbook_crosschecks='PASS',irvine_k_fourth_date_label='11.5 printed; interpreted as 11.6 by weekly sequence'),indent=2))
+print(json.dumps(dict(irvine_rows=58,k_student_days=8703,pk_student_days=5401,lodi_rows=31,lodi_highest_eligible=3481,lodi_last_day=3481,pdf_and_cleaned_workbook_crosschecks='PASS',irvine_k_fourth_date_label='11.5 printed twice; fourth column confirmed as Nov 6 by Monday-Friday sequence'),indent=2))
