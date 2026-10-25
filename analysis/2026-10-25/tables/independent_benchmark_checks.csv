@@ -1,0 +1,231 @@
+cds,school,group,field,reconstructed,reference,difference,pass_check
+56726526056204,ATLAS,TK+K,obs_ada,66.9,66.9,0.0,True
+56726526056204,ATLAS,TK+K,obs_ade,72.17,72.17,0.0,True
+56726526056204,ATLAS,TK+K,census,70.0,70.0,0.0,True
+56726526056204,ATLAS,TK+K,cum,76.0,76.0,0.0,True
+56726526056204,ATLAS,TK+K,abs_days,947.0,947.0,0.0,True
+56726526116040,Citrus Glen Elementary School,TK+K,obs_ada,83.66000000000001,83.66000000000001,0.0,True
+56726526116040,Citrus Glen Elementary School,TK+K,obs_ade,88.54,88.54,0.0,True
+56726526116040,Citrus Glen Elementary School,TK+K,census,88.0,88.0,0.0,True
+56726526116040,Citrus Glen Elementary School,TK+K,cum,92.0,92.0,0.0,True
+56726526116040,Citrus Glen Elementary School,TK+K,abs_days,878.0,878.0,0.0,True
+56726526056063,E. P. Foster Elementary School,TK+K,obs_ada,57.11,57.11,0.0,True
+56726526056063,E. P. Foster Elementary School,TK+K,obs_ade,61.42,61.42,0.0,True
+56726526056063,E. P. Foster Elementary School,TK+K,census,61.0,61.0,0.0,True
+56726526056063,E. P. Foster Elementary School,TK+K,cum,63.0,63.0,0.0,True
+56726526056063,E. P. Foster Elementary School,TK+K,abs_days,776.0,776.0,0.0,True
+56726526056089,Elmhurst Elementary School,TK+K,obs_ada,76.18,76.18,0.0,True
+56726526056089,Elmhurst Elementary School,TK+K,obs_ade,82.69,82.69,0.0,True
+56726526056089,Elmhurst Elementary School,TK+K,census,83.0,83.0,0.0,True
+56726526056089,Elmhurst Elementary School,TK+K,cum,90.0,90.0,0.0,True
+56726526056089,Elmhurst Elementary School,TK+K,abs_days,1155.0,1155.0,0.0,True
+56726526056097,Juanamaria Elementary School,TK+K,obs_ada,51.87,51.87,0.0,True
+56726526056097,Juanamaria Elementary School,TK+K,obs_ade,54.59,54.59,0.0,True
+56726526056097,Juanamaria Elementary School,TK+K,census,56.0,56.0,0.0,True
+56726526056097,Juanamaria Elementary School,TK+K,cum,59.0,59.0,0.0,True
+56726526056097,Juanamaria Elementary School,TK+K,abs_days,488.0,488.0,0.0,True
+56726526056105,Junipero Serra Elementary School,TK+K,obs_ada,80.43,80.43,0.0,True
+56726526056105,Junipero Serra Elementary School,TK+K,obs_ade,85.28,85.28,0.0,True
+56726526056105,Junipero Serra Elementary School,TK+K,census,89.0,89.0,0.0,True
+56726526056105,Junipero Serra Elementary School,TK+K,cum,93.0,93.0,0.0,True
+56726526056105,Junipero Serra Elementary School,TK+K,abs_days,873.0,873.0,0.0,True
+56726526056055,Lemon Grove School,TK+K,obs_ada,40.81,40.81,0.0,True
+56726526056055,Lemon Grove School,TK+K,obs_ade,43.870000000000005,43.870000000000005,0.0,True
+56726526056055,Lemon Grove School,TK+K,census,45.0,45.0,0.0,True
+56726526056055,Lemon Grove School,TK+K,cum,47.0,47.0,0.0,True
+56726526056055,Lemon Grove School,TK+K,abs_days,551.0,551.0,0.0,True
+56726526056113,Lincoln Elementary School,TK+K,obs_ada,61.08,61.08,0.0,True
+56726526056113,Lincoln Elementary School,TK+K,obs_ade,65.09,65.09,0.0,True
+56726526056113,Lincoln Elementary School,TK+K,census,64.0,64.0,0.0,True
+56726526056113,Lincoln Elementary School,TK+K,cum,66.0,66.0,0.0,True
+56726526056113,Lincoln Elementary School,TK+K,abs_days,714.0,714.0,0.0,True
+56726526056121,Loma Vista Elementary School,TK+K,obs_ada,88.21000000000001,88.21000000000001,0.0,True
+56726526056121,Loma Vista Elementary School,TK+K,obs_ade,93.98,93.98,0.0,True
+56726526056121,Loma Vista Elementary School,TK+K,census,94.0,94.0,0.0,True
+56726526056121,Loma Vista Elementary School,TK+K,cum,96.0,96.0,0.0,True
+56726526056121,Loma Vista Elementary School,TK+K,abs_days,1038.0,1038.0,0.0,True
+56726526056147,Montalvo Elementary School,TK+K,obs_ada,85.25999999999999,85.25999999999999,0.0,True
+56726526056147,Montalvo Elementary School,TK+K,obs_ade,90.81,90.81,0.0,True
+56726526056147,Montalvo Elementary School,TK+K,census,94.0,94.0,0.0,True
+56726526056147,Montalvo Elementary School,TK+K,cum,92.0,92.0,0.0,True
+56726526056147,Montalvo Elementary School,TK+K,abs_days,968.0,968.0,0.0,True
+56726526056154,Mound Elementary School,TK+K,obs_ada,114.32,114.32,0.0,True
+56726526056154,Mound Elementary School,TK+K,obs_ade,120.22,120.22,0.0,True
+56726526056154,Mound Elementary School,TK+K,census,120.0,120.0,0.0,True
+56726526056154,Mound Elementary School,TK+K,cum,124.0,124.0,0.0,True
+56726526056154,Mound Elementary School,TK+K,abs_days,1061.0,1061.0,0.0,True
+56726526056170,Pierpont Elementary School,TK+K,obs_ada,41.38,41.38,0.0,True
+56726526056170,Pierpont Elementary School,TK+K,obs_ade,43.48,43.48,0.0,True
+56726526056170,Pierpont Elementary School,TK+K,census,43.0,43.0,0.0,True
+56726526056170,Pierpont Elementary School,TK+K,cum,46.0,46.0,0.0,True
+56726526056170,Pierpont Elementary School,TK+K,abs_days,364.0,364.0,0.0,True
+56726526056188,Poinsettia Elementary School,TK+K,obs_ada,82.03,82.03,0.0,True
+56726526056188,Poinsettia Elementary School,TK+K,obs_ade,86.75,86.75,0.0,True
+56726526056188,Poinsettia Elementary School,TK+K,census,88.0,88.0,0.0,True
+56726526056188,Poinsettia Elementary School,TK+K,cum,89.0,89.0,0.0,True
+56726526056188,Poinsettia Elementary School,TK+K,abs_days,848.0,848.0,0.0,True
+56726526097034,Portola Elementary School,TK+K,obs_ada,80.07,80.07,0.0,True
+56726526097034,Portola Elementary School,TK+K,obs_ade,86.43,86.43,0.0,True
+56726526097034,Portola Elementary School,TK+K,census,85.0,85.0,0.0,True
+56726526097034,Portola Elementary School,TK+K,cum,91.0,91.0,0.0,True
+56726526097034,Portola Elementary School,TK+K,abs_days,1142.0,1142.0,0.0,True
+56726526056212,Sheridan Way Elementary School,TK+K,obs_ada,51.2,51.2,0.0,True
+56726526056212,Sheridan Way Elementary School,TK+K,obs_ade,55.019999999999996,55.02,-7.105427357601002e-15,True
+56726526056212,Sheridan Way Elementary School,TK+K,census,54.0,54.0,0.0,True
+56726526056212,Sheridan Way Elementary School,TK+K,cum,60.0,60.0,0.0,True
+56726526056212,Sheridan Way Elementary School,TK+K,abs_days,681.0,681.0,0.0,True
+56726526056030,Sunset School,TK+K,obs_ada,52.519999999999996,52.52,-7.105427357601002e-15,True
+56726526056030,Sunset School,TK+K,obs_ade,56.230000000000004,56.23,7.105427357601002e-15,True
+56726526056030,Sunset School,TK+K,census,57.0,57.0,0.0,True
+56726526056030,Sunset School,TK+K,cum,57.0,57.0,0.0,True
+56726526056030,Sunset School,TK+K,abs_days,668.0,668.0,0.0,True
+56726526056238,Will Rogers Elementary School,TK+K,obs_ada,66.11,66.11,0.0,True
+56726526056238,Will Rogers Elementary School,TK+K,obs_ade,69.99,69.99,0.0,True
+56726526056238,Will Rogers Elementary School,TK+K,census,72.0,72.0,0.0,True
+56726526056238,Will Rogers Elementary School,TK+K,cum,72.0,72.0,0.0,True
+56726526056238,Will Rogers Elementary School,TK+K,abs_days,698.0,698.0,0.0,True
+56726526056204,ATLAS,Schoolwide,obs_ada,332.45,332.45,0.0,True
+56726526056204,ATLAS,Schoolwide,obs_ade,351.86,351.86,0.0,True
+56726526056204,ATLAS,Schoolwide,census,353.0,353.0,0.0,True
+56726526056204,ATLAS,Schoolwide,cum,460.0,460.0,0.0,True
+56726526056204,ATLAS,Schoolwide,abs_days,4183.0,4183.0,0.0,True
+56726526116040,Citrus Glen Elementary School,Schoolwide,obs_ada,455.12,455.12,0.0,True
+56726526116040,Citrus Glen Elementary School,Schoolwide,obs_ade,480.71000000000004,480.71,5.684341886080802e-14,True
+56726526116040,Citrus Glen Elementary School,Schoolwide,census,480.0,480.0,0.0,True
+56726526116040,Citrus Glen Elementary School,Schoolwide,cum,486.0,486.0,0.0,True
+56726526116040,Citrus Glen Elementary School,Schoolwide,abs_days,4595.0,4595.0,0.0,True
+56726526056063,E. P. Foster Elementary School,Schoolwide,obs_ada,279.90999999999997,279.91,-5.684341886080802e-14,True
+56726526056063,E. P. Foster Elementary School,Schoolwide,obs_ade,297.76000000000005,297.76000000000005,0.0,True
+56726526056063,E. P. Foster Elementary School,Schoolwide,census,299.0,299.0,0.0,True
+56726526056063,E. P. Foster Elementary School,Schoolwide,cum,309.0,309.0,0.0,True
+56726526056063,E. P. Foster Elementary School,Schoolwide,abs_days,3207.0,3207.0,0.0,True
+56726526056089,Elmhurst Elementary School,Schoolwide,obs_ada,346.29,346.29,0.0,True
+56726526056089,Elmhurst Elementary School,Schoolwide,obs_ade,368.59,368.59,0.0,True
+56726526056089,Elmhurst Elementary School,Schoolwide,census,371.0,371.0,0.0,True
+56726526056089,Elmhurst Elementary School,Schoolwide,cum,386.0,386.0,0.0,True
+56726526056089,Elmhurst Elementary School,Schoolwide,abs_days,3987.0,3987.0,0.0,True
+56726526056097,Juanamaria Elementary School,Schoolwide,obs_ada,306.56,306.56,0.0,True
+56726526056097,Juanamaria Elementary School,Schoolwide,obs_ade,321.90999999999997,321.90999999999997,0.0,True
+56726526056097,Juanamaria Elementary School,Schoolwide,census,318.0,318.0,0.0,True
+56726526056097,Juanamaria Elementary School,Schoolwide,cum,331.0,331.0,0.0,True
+56726526056097,Juanamaria Elementary School,Schoolwide,abs_days,2750.0,2750.0,0.0,True
+56726526056105,Junipero Serra Elementary School,Schoolwide,obs_ada,366.09999999999997,366.1,-5.684341886080802e-14,True
+56726526056105,Junipero Serra Elementary School,Schoolwide,obs_ade,383.96000000000004,383.96,5.684341886080802e-14,True
+56726526056105,Junipero Serra Elementary School,Schoolwide,census,389.0,389.0,0.0,True
+56726526056105,Junipero Serra Elementary School,Schoolwide,cum,399.0,399.0,0.0,True
+56726526056105,Junipero Serra Elementary School,Schoolwide,abs_days,3215.0,3215.0,0.0,True
+56726526056055,Lemon Grove School,Schoolwide,obs_ada,207.19,207.19,0.0,True
+56726526056055,Lemon Grove School,Schoolwide,obs_ade,221.72,221.72,0.0,True
+56726526056055,Lemon Grove School,Schoolwide,census,220.0,220.0,0.0,True
+56726526056055,Lemon Grove School,Schoolwide,cum,296.0,296.0,0.0,True
+56726526056055,Lemon Grove School,Schoolwide,abs_days,3381.0,3381.0,0.0,True
+56726526056113,Lincoln Elementary School,Schoolwide,obs_ada,194.84,194.84,0.0,True
+56726526056113,Lincoln Elementary School,Schoolwide,obs_ade,207.69,207.69,0.0,True
+56726526056113,Lincoln Elementary School,Schoolwide,census,208.0,208.0,0.0,True
+56726526056113,Lincoln Elementary School,Schoolwide,cum,218.0,218.0,0.0,True
+56726526056113,Lincoln Elementary School,Schoolwide,abs_days,2303.0,2303.0,0.0,True
+56726526056121,Loma Vista Elementary School,Schoolwide,obs_ada,351.10999999999996,351.11,-5.684341886080802e-14,True
+56726526056121,Loma Vista Elementary School,Schoolwide,obs_ade,371.15,371.15,0.0,True
+56726526056121,Loma Vista Elementary School,Schoolwide,census,372.0,372.0,0.0,True
+56726526056121,Loma Vista Elementary School,Schoolwide,cum,378.0,378.0,0.0,True
+56726526056121,Loma Vista Elementary School,Schoolwide,abs_days,3600.0,3600.0,0.0,True
+56726526056147,Montalvo Elementary School,Schoolwide,obs_ada,392.3,392.3,0.0,True
+56726526056147,Montalvo Elementary School,Schoolwide,obs_ade,412.89000000000004,412.89,5.684341886080802e-14,True
+56726526056147,Montalvo Elementary School,Schoolwide,census,422.0,422.0,0.0,True
+56726526056147,Montalvo Elementary School,Schoolwide,cum,421.0,421.0,0.0,True
+56726526056147,Montalvo Elementary School,Schoolwide,abs_days,3674.0,3674.0,0.0,True
+56726526056154,Mound Elementary School,Schoolwide,obs_ada,512.9,512.9,0.0,True
+56726526056154,Mound Elementary School,Schoolwide,obs_ade,538.48,538.48,0.0,True
+56726526056154,Mound Elementary School,Schoolwide,census,540.0,540.0,0.0,True
+56726526056154,Mound Elementary School,Schoolwide,cum,549.0,549.0,0.0,True
+56726526056154,Mound Elementary School,Schoolwide,abs_days,4586.0,4586.0,0.0,True
+56726526056170,Pierpont Elementary School,Schoolwide,obs_ada,280.74,280.74,0.0,True
+56726526056170,Pierpont Elementary School,Schoolwide,obs_ade,295.45000000000005,295.45000000000005,0.0,True
+56726526056170,Pierpont Elementary School,Schoolwide,census,295.0,295.0,0.0,True
+56726526056170,Pierpont Elementary School,Schoolwide,cum,302.0,302.0,0.0,True
+56726526056170,Pierpont Elementary School,Schoolwide,abs_days,2632.0,2632.0,0.0,True
+56726526056188,Poinsettia Elementary School,Schoolwide,obs_ada,360.28,360.28,0.0,True
+56726526056188,Poinsettia Elementary School,Schoolwide,obs_ade,377.94,377.94,0.0,True
+56726526056188,Poinsettia Elementary School,Schoolwide,census,377.0,377.0,0.0,True
+56726526056188,Poinsettia Elementary School,Schoolwide,cum,383.0,383.0,0.0,True
+56726526056188,Poinsettia Elementary School,Schoolwide,abs_days,3174.0,3174.0,0.0,True
+56726526097034,Portola Elementary School,Schoolwide,obs_ada,415.73999999999995,415.74,-5.684341886080802e-14,True
+56726526097034,Portola Elementary School,Schoolwide,obs_ade,444.4,444.4,0.0,True
+56726526097034,Portola Elementary School,Schoolwide,census,445.0,445.0,0.0,True
+56726526097034,Portola Elementary School,Schoolwide,cum,459.0,459.0,0.0,True
+56726526097034,Portola Elementary School,Schoolwide,abs_days,5122.0,5122.0,0.0,True
+56726526056212,Sheridan Way Elementary School,Schoolwide,obs_ada,268.55,268.55,0.0,True
+56726526056212,Sheridan Way Elementary School,Schoolwide,obs_ade,284.06,284.06,0.0,True
+56726526056212,Sheridan Way Elementary School,Schoolwide,census,284.0,284.0,0.0,True
+56726526056212,Sheridan Way Elementary School,Schoolwide,cum,296.0,296.0,0.0,True
+56726526056212,Sheridan Way Elementary School,Schoolwide,abs_days,2782.0,2782.0,0.0,True
+56726526056030,Sunset School,Schoolwide,obs_ada,243.8,243.8,0.0,True
+56726526056030,Sunset School,Schoolwide,obs_ade,259.01,259.01,0.0,True
+56726526056030,Sunset School,Schoolwide,census,260.0,260.0,0.0,True
+56726526056030,Sunset School,Schoolwide,cum,359.0,359.0,0.0,True
+56726526056030,Sunset School,Schoolwide,abs_days,3717.0,3717.0,0.0,True
+56726526056238,Will Rogers Elementary School,Schoolwide,obs_ada,376.7,376.7,0.0,True
+56726526056238,Will Rogers Elementary School,Schoolwide,obs_ade,395.13,395.13,0.0,True
+56726526056238,Will Rogers Elementary School,Schoolwide,census,400.0,400.0,0.0,True
+56726526056238,Will Rogers Elementary School,Schoolwide,cum,402.0,402.0,0.0,True
+56726526056238,Will Rogers Elementary School,Schoolwide,abs_days,3313.0,3313.0,0.0,True
+56726526115687,Homestead,Schoolwide,obs_ada,17.93,17.93,0.0,True
+56726526115687,Homestead,Schoolwide,obs_ade,18.42,18.42,0.0,True
+56726526115687,Homestead,Schoolwide,census,16.0,16.0,0.0,True
+56726526115687,Homestead,Schoolwide,cum,42.0,42.0,0.0,True
+56726526115687,Homestead,Schoolwide,abs_days,201.0,201.0,0.0,True
+56725200139626,Summit,TK+K,obs_ada,12.55232558139535,12.55232558139535,0.0,True
+56725200139626,Summit,TK+K,obs_ade,12.55232558139535,12.55232558139535,0.0,True
+56725200139626,Summit,TK+K,census,13.0,13.0,0.0,True
+56725200139626,Summit,TK+K,cum,14.0,14.0,0.0,True
+56725200139626,Summit,TK+K,abs_days,0.0,0.0,0.0,True
+56725200139626,Summit,Schoolwide,obs_ada,166.6627906976744,166.6627906976744,0.0,True
+56725200139626,Summit,Schoolwide,obs_ade,168.12209302325581,168.1220930232558,2.842170943040401e-14,True
+56725200139626,Summit,Schoolwide,census,187.0,187.0,0.0,True
+56725200139626,Summit,Schoolwide,cum,202.0,202.0,0.0,True
+56725200139626,Summit,Schoolwide,abs_days,336.0,336.0,0.0,True
+56725205631817,Legacy High,Schoolwide,obs_ada,17.546511627906977,17.546511627906977,0.0,True
+56725205631817,Legacy High,Schoolwide,obs_ade,23.83139534883721,23.83139534883721,0.0,True
+56725205631817,Legacy High,Schoolwide,census,30.0,30.0,0.0,True
+56725205631817,Legacy High,Schoolwide,cum,40.0,40.0,0.0,True
+56725205631817,Legacy High,Schoolwide,abs_days,1131.0,1131.0,0.0,True
+56725205634076,Nordhoff High,Schoolwide,obs_ada,507.0581395348837,507.0581395348837,0.0,True
+56725205634076,Nordhoff High,Schoolwide,obs_ade,544.203488372093,544.203488372093,0.0,True
+56725205634076,Nordhoff High,Schoolwide,census,562.0,562.0,0.0,True
+56725205634076,Nordhoff High,Schoolwide,cum,559.0,559.0,0.0,True
+56725205634076,Nordhoff High,Schoolwide,abs_days,6242.0,6242.0,0.0,True
+56725206055198,Meiners Oaks Early Education,TK+K,obs_ada,83.01162790697674,83.01162790697674,0.0,True
+56725206055198,Meiners Oaks Early Education,TK+K,obs_ade,88.97093023255815,88.97093023255815,0.0,True
+56725206055198,Meiners Oaks Early Education,TK+K,census,91.0,91.0,0.0,True
+56725206055198,Meiners Oaks Early Education,TK+K,cum,92.0,92.0,0.0,True
+56725206055198,Meiners Oaks Early Education,TK+K,abs_days,1069.0,1069.0,0.0,True
+56725206055198,Meiners Oaks Early Education,Schoolwide,obs_ada,83.01162790697674,83.01162790697674,0.0,True
+56725206055198,Meiners Oaks Early Education,Schoolwide,obs_ade,88.97093023255815,88.97093023255815,0.0,True
+56725206055198,Meiners Oaks Early Education,Schoolwide,census,91.0,91.0,0.0,True
+56725206055198,Meiners Oaks Early Education,Schoolwide,cum,92.0,92.0,0.0,True
+56725206055198,Meiners Oaks Early Education,Schoolwide,abs_days,1069.0,1069.0,0.0,True
+56725206055206,Mira Monte Elementary,TK+K,obs_ada,61.16860465116279,61.16860465116279,0.0,True
+56725206055206,Mira Monte Elementary,TK+K,obs_ade,65.05232558139535,65.05232558139535,0.0,True
+56725206055206,Mira Monte Elementary,TK+K,census,65.0,65.0,0.0,True
+56725206055206,Mira Monte Elementary,TK+K,cum,67.0,67.0,0.0,True
+56725206055206,Mira Monte Elementary,TK+K,abs_days,697.0,697.0,0.0,True
+56725206055206,Mira Monte Elementary,Schoolwide,obs_ada,462.77906976744185,462.77906976744185,0.0,True
+56725206055206,Mira Monte Elementary,Schoolwide,obs_ade,491.1860465116279,491.1860465116279,0.0,True
+56725206055206,Mira Monte Elementary,Schoolwide,census,506.0,506.0,0.0,True
+56725206055206,Mira Monte Elementary,Schoolwide,cum,511.0,511.0,0.0,True
+56725206055206,Mira Monte Elementary,Schoolwide,abs_days,5170.0,5170.0,0.0,True
+56725206055248,Topa Topa Elementary,TK+K,obs_ada,36.91860465116279,36.91860465116279,0.0,True
+56725206055248,Topa Topa Elementary,TK+K,obs_ade,39.41279069767442,39.41279069767442,0.0,True
+56725206055248,Topa Topa Elementary,TK+K,census,39.0,39.0,0.0,True
+56725206055248,Topa Topa Elementary,TK+K,cum,40.0,40.0,0.0,True
+56725206055248,Topa Topa Elementary,TK+K,abs_days,449.0,449.0,0.0,True
+56725206055248,Topa Topa Elementary,Schoolwide,obs_ada,332.5348837209302,332.5348837209302,0.0,True
+56725206055248,Topa Topa Elementary,Schoolwide,obs_ade,357.49418604651163,357.49418604651163,0.0,True
+56725206055248,Topa Topa Elementary,Schoolwide,census,361.0,361.0,0.0,True
+56725206055248,Topa Topa Elementary,Schoolwide,cum,366.0,366.0,0.0,True
+56725206055248,Topa Topa Elementary,Schoolwide,abs_days,4472.0,4472.0,0.0,True
+56725206060339,Nordhoff Jr. High,Schoolwide,obs_ada,269.0174418604651,269.0174418604651,0.0,True
+56725206060339,Nordhoff Jr. High,Schoolwide,obs_ade,287.3720930232558,287.3720930232558,0.0,True
+56725206060339,Nordhoff Jr. High,Schoolwide,census,291.0,291.0,0.0,True
+56725206060339,Nordhoff Jr. High,Schoolwide,cum,298.0,298.0,0.0,True
+56725206060339,Nordhoff Jr. High,Schoolwide,abs_days,3296.0,3296.0,0.0,True

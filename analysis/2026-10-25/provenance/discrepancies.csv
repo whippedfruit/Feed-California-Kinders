@@ -1,0 +1,5 @@
+id,severity,item,evidence,resolution,affects_numeric_results
+D01,medium,Irvine K fourth date header,"K PDF header is 11.3 11.4 11.5 11.5 11.7; PK header is 11.3 11.4 11.5 11.6 11.7","Preserve original; interpret five columns as Nov 3-7 in derived CSV; fourth-day label requires district confirmation for date-specific use",No effect on five-day totals
+D02,low,Base-R dependency claim,"R/00_config.R says package-free; R/09 loads dplyr readr stringr","Installed packages into workspace; preserved original scripts; recorded versions",No
+D03,low,Stability pseudo-school identifiers,"Three school-level TA rows share CDS 39686270000001 with distinct school names","Exclude school codes 0000000 and 0000001 from real-school stability matching",No effect on 77 reference rows
+D04,medium,October flag definition comment,"23_mobility_test.py describes absolute error over 5 percent but implemented large_overestimate is p1_err > 0.05","Reproduce implemented rule; label flag target as overestimation over 5 percent",No numerical change; interpretation clarified

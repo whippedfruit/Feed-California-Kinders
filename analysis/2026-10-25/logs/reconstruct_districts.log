@@ -1,0 +1,10 @@
+{
+  "irvine_rows": 58,
+  "k_student_days": 8703,
+  "pk_student_days": 5401,
+  "lodi_rows": 31,
+  "lodi_highest_eligible": 3481,
+  "lodi_last_day": 3481,
+  "pdf_and_cleaned_workbook_crosschecks": "PASS",
+  "irvine_k_fourth_date_label": "11.5 printed; interpreted as 11.6 by weekly sequence"
+}

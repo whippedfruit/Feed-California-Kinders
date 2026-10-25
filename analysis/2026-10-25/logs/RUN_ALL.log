@@ -1,0 +1,58 @@
+Running R/00_config.R
+Running R/01_clean_enrollment.R
+Running R/02_clean_absenteeism.R
+Running R/03_clean_cbeds.R
+Running R/04_build_school_panel.R
+Running R/05_validate_links.R
+Running R/06_build_denominators.R
+Running R/07_irvine_lodi_analysis.R
+Irvine/Lodi summary:
+        district schools_with_positive_tk_k schools_usable census_tk_k
+1 Irvine Unified                         30             30        3172
+2   Lodi Unified                         34             33        2632
+  eligible_cumulative_tk_k total_absence_days proxy_attended_census_180
+1                     3417              33152                    537808
+2                     2823              43256                    430504
+  proxy_attended_cumulative_180 proxy_attended_midpoint_180
+1                        581908                      559858
+2                        464884                      447694
+  cumulative_vs_census_pct median_school_difference_pct
+1                 8.199952                     8.238775
+2                 7.985989                     6.398862
+Running R/08_district_validation.R
+Irvine 2025-26 Census vs observed attendance validation:
+  schools census_tk census_k census_tk_k observed_k_five_day_student_days
+1      30      1170     1873        3043                             8703
+  observed_tk_five_day_student_days observed_tk_k_five_day_student_days
+1                              5401                               14104
+  mean_daily_tk_k_attendance aggregate_attendance_to_census_ratio
+1                     2820.8                              0.92698
+  median_school_attendance_to_census_ratio
+1                                0.9272639
+Interpretation caution: observed attendance covers Nov. 3-7, 2025 only; the Census comparison does not validate an annual 180-day denominator.
+Running R/09_lodi_enrollment_triangulation.R
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Lodi 2025-26 Kindergarten enrollment triangulation:
+# A tibble: 1 × 9
+  schools district_highest_eligible_…¹ district_last_day_to…² cde_k_census_total
+    <int>                        <dbl>                  <dbl>              <dbl>
+1      31                         3481                   3481               1763
+# ℹ abbreviated names: ¹​district_highest_eligible_total,
+#   ²​district_last_day_total
+# ℹ 5 more variables: district_minus_cde_k_total <dbl>,
+#   aggregate_district_to_cde_ratio <dbl>, aggregate_pct_difference <dbl>,
+#   median_school_ratio <dbl>, median_school_pct_difference <dbl>
+
+Interpretation: the Lodi source is a Kindergarten-filtered meal-program eligibility report covering 7/29/2025-5/29/2026. Highest Eligible and Last Day are identical at all 31 reported schools. The report-side quantity is therefore retained as useful source-triangulation evidence, but not as an independently validated annual attendance denominator. It does not identify student-specific expected attendance days and does not adjudicate between the Census and cumulative-enrollment annual proxy constructions.
+Build complete.
