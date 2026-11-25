@@ -1,6 +1,6 @@
 # Feed California Kinders
 
-How does the timing of the school day shape access to breakfast and lunch for transitional kindergarten (TK) and kindergarten students in California? This repository brings together district meal and attendance records, statewide data, and project analyses. See the [project proposal](proposal_abstract.md) for the research questions and data limitations.
+How does the timing of the school day affect access to breakfast and lunch for transitional kindergarten (TK) and kindergarten students in California? This repository brings together district meal and attendance records, statewide data, and project analyses. See the [project proposal](proposal_abstract.md) for the research questions and data limitations.
 
 ## Analyses and results
 
