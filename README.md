@@ -13,7 +13,7 @@ The executable annual R pipeline is maintained in [ca-school-lunch-attendance](h
 ## District and statewide files
 
 - [Irvine](Irvine/): original attendance and meal PDFs, plus validated K/PK attendance extraction.
-- [Lodi](Lodi/): source reports, workbooks, and validated Kindergarten enrollment/eligibility extraction.
+- [Lodi](Lodi/): source reports, workbooks, and validated Kindergarten enrollment/eligibility extraction. See the [November 25 K–5 analysis](https://github.com/taielucile/ca-school-lunch-attendance/blob/main/studies/lodi_2025_26/K5_MEAL_COMPARISONS.md) for preliminary results, figures, and proposed district follow-up.
 - [Ventura Unified](Ventura%20Unified/)
 - [Ojai Unified](Ojai%20Unified/)
 - [Davis Joint Unified](Davis%20Joint%20Unified/)
